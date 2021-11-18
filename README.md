@@ -13,3 +13,12 @@ In the two-photon microscopes we worked with, every line in bidirectional scanni
 ![alt text](https://github.com/FrancisCrickInstitute/LCD-screen-Backlight-LED-External-control-circuit/blob/main/Experimental%20data/tek00000.png?raw=true)
 
 
+Rext selection criteria
+
+The Value of the resistor associated on the output depends on the current demanded for your monitor/your brightness requirements. The screens we tested operate at 55-75 mA per channel. We recommend to measure these parameters in normal conditions and then choose the adequate Rext value according to the following figure from the Infineon BCR 421U datasheet.
+
+Models of monitor tested
+
+	Dell U2415 (48Vdc, Iout = 72 mA , Rext = 12R)
+
+The instructions on how to install it inside the Dell display are i the Documentation file.
