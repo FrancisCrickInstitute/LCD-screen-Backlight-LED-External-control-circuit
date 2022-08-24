@@ -1,7 +1,5 @@
 # LCD-screen-Backlight-LED-External-control-circuit
 
-The Making STP, The Francis Crick Institute
-
 The present circuit is a PCB design based on the original concept published by Georg Keller (FMI Basel) and implemented by Martyn Stopps (NIMR, London & SWC) to optimize footprint and production. This work is only the implementation of the circuit in to a small PCB and a new version generating an inverting output that can be embedded inside of the original screen enclosure. The circuit provides the synchronization between each frame on the microscope acquisition and the flickering frequency of the screen back-illumination. The digital signal to the LED of the Toshiba photocoupler is generated in the two-photon acquisition software (ScanImage) from a modified line clock synchronized to the scanner DAQ board. This signal is transmitted to each of the four LED panels of the LCD display generating the desired current through the LED drivers BCR 421U E6327. The photocoupler also isolates the 5V control circuit from the 48V power circuit. The output current is modulated with an external resistor (Rext), in parallel with the Rint of the LED driver.
 
 ![alt text](https://github.com/FrancisCrickInstitute/LCD-screen-Backlight-LED-External-control-circuit/blob/main/Schematic.png?raw=true)
